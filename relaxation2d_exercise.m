@@ -15,10 +15,9 @@ end
 a = zeros(N+1);  
 % SET the fixed outer boundary conditions in a
 %-------------------------------------------------
-a(1,:) = 1;
-a(N+1,:) = 1;
-a(:,1) = 0;
-a(:,N+1) = 0;
+
+
+
 
 newa = a; % copy used for Jacobi method
 
