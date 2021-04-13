@@ -21,7 +21,8 @@ Your code is working if you observe this potential:
 
 ## Problem 2 (homework)<a name="3"></a>
 
-Modify <tt>relaxation2d_exercise.m</tt> to solve the following Poisson equation with the Jacobi, Gauss-Seidel, and SOR methods. 
+Modify <tt>relaxation2d_exercise.m</tt> to solve the following Poisson equation with the Jacobi, Gauss-Seidel, and SOR methods. Implement the `ID` and `BC` matrices
+to account for an interior boundary condition.
 
 ∇<sup>2</sup>Φ = 10cos(*πx*)cos(3*πy*)
 
